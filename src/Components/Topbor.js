@@ -64,7 +64,7 @@ function Topbor() {
 
   return (
     <div>
-      <nav class="navbar ">
+      <nav class="navbar">
         <div class="container-fluid">
           <div className='navbar-texts'>
             <h1 className='v-text'>V</h1>
@@ -82,7 +82,7 @@ function Topbor() {
           </div>
         </div>
       </nav>
-      <Modal className='container col-sm-12 col-md-12 col-lg-12 col-xl-12' isOpen={Loginsignup} toggle={() => setLoginsigmup(!Loginsignup)} size='lg' centered>
+      <Modal className='container col-12' isOpen={Loginsignup} toggle={() => setLoginsigmup(!Loginsignup)} size='lg' centered>
         <ModalHeader className='header ' toggle={() => setLoginsigmup(!Loginsignup)}><div className='text'>{action}</div>
         </ModalHeader>
         <ModalBody>

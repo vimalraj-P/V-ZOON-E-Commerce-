@@ -8,7 +8,7 @@ import slide5 from '../Images/img5.jpg'
 function Slids() {
   return (
     <div>
-      <div id="carouselExampleInterval" class="carousel slide col-sm-12 col-md-12 col-lg-12 col-xl-12" data-bs-ride="carousel">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
             <img src={slide1} class="d-block w-100" height={"300px"} alt="..." />

@@ -34,8 +34,8 @@ function Cart({headercart,setHeadercart}) {
   return (
     <div className='container w-75 m-auto'>
       <div className='row my-5'>
-        <div className='col-sm-12 col-md-12 col-lg-8 col-xl-8'>
-          <div class="card" style={{ width: "50rem" }}>
+        <div className='col-8'>
+          <div class="card" >
             <ul class="list-group list-group-flush">
               {
                 Cart.map((item) => {
@@ -53,7 +53,7 @@ function Cart({headercart,setHeadercart}) {
             </ul>
           </div>
         </div>
-        <div className='col-sm-12 col-md-12 col-lg-4 col-xl-4'>
+        <div className='col-4'>
           <div class="card payment-card" >
             <div class="card-body ">
               <h5 class="card-title">Payments</h5>

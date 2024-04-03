@@ -56,7 +56,7 @@ function Checkout() {
     return (
         <div className='container '>
             <div className='row my-5'>
-                <div className='col-sm-12 col-md-12 col-lg-8 col-xl-8'>
+                <div className='col-8'>
                     <h4>Card Details</h4>
                     <div class="card w-75 creditcard-style">
                         <div class="card-body">
@@ -109,7 +109,7 @@ function Checkout() {
                         </div>
                     </div>
                 </div>
-                <div className='col-sm-12 col-md-12 col-lg-4 col-xl-4 my-5'> <div class="card" >
+                <div className='col-4 my-5'> <div class="card" >
                     <div class="card-body payment-card">
                         <h5 class="card-title">Payments</h5>
                         <div class="card">

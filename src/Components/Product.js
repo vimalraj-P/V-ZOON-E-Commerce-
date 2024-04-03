@@ -50,7 +50,7 @@ function Product({ cart, setcart }) {
                 <div className='row'>
                     {
                         Product.map((list) => {
-                            return <div className='col-sm-12 col-md-6 col-lg-4 col-xl-4 my-3'>
+                            return <div className='col-4 my-3'>
                                 <div class="card p-3 Product-card" style={{ width: "18rem;" }}>
                                     <img src={list.Image} class="card-img-top" alt="..." />
                                     <div class="card-body">
