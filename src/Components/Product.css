@@ -1,0 +1,30 @@
+.Product-card {
+    background-color: rgb(131, 196, 212);
+    box-shadow: 2px 2px 5px black;
+    height: 600px;
+}
+
+.product-btn {
+    padding: 10px 20px;
+    border: 1px solid orange;
+    background-color: orange;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.Product-buy-button {
+    padding: 10px 35px;
+    border: 1px solid rgb(255, 123, 0);
+    background-color: rgb(255, 123, 0);
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-style :hover {
+    border: 1px solid rgb(52, 32, 71);
+    background-color: rgb(179, 128, 81)
+}
